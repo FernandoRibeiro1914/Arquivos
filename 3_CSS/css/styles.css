@@ -115,3 +115,78 @@ h2 {
     background-color: rgba(90, 120, 20, 0.2);
     color: #000;
 }
+
+/* BG image */
+.bg-image {
+    background-image: url(../img/nature.jpg);
+    width: fit-content;
+    color: rgb(147, 40, 255);
+ /* Espaçamento interno entre o conteúdo e as bordas internas do elemento */
+    padding: 10px;
+}
+
+/* Centralizando bg image
+   A vírgula após o primeiro seletor permite que 
+   as regras (height, etc) sejam aproveitadas a ambos os seletores/elementos */
+.not-centered-bg,
+.centered-bg {
+    height: 400px;
+    width: 400px;
+    background-image: url(../img/bridge.jpg);
+}
+
+.centered-bg {
+    background-position: center;
+    background-size: cover;
+}
+
+/* altura e largura */
+.height-width {
+    height: 200px;
+    width: 100px;
+    background-color: #ff0000;
+}
+
+.height-width-2 {
+    height: 300px;
+    background-color: #333;
+}    
+
+.without-padding, .padding {
+    background-color: #000;
+    color: #ffffff;
+}
+
+/* Adc. padding para o conteúdo ficar melhor posicionado
+   para melhor UX. */
+.padding {
+    background-color: #999;
+    padding: 0.5%;
+}
+
+/* Padding individual */
+.padding-individual {
+    background-color: #222;
+    color: #fff;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+
+/* shorthand padding  
+   Definindo o padding em todas as direções em uma única linha: 
+   topo (6px), direita (12px), baixo (18px), esquerda (24px) */
+.shorthand-padding {
+    background-color: #444;
+    padding: 6px 12px 18px 24px;
+}
+
+.shorthand-padding-2 {
+    background-color: #555;
+    /* Definindo o padding vertical (topo e baixo) como 10px 
+       e o horizontal (direita e esquerda) como 20px */
+    padding: 10px 20px;
+
+    /* padding: 10px 20px 10px 20px; */
+}
