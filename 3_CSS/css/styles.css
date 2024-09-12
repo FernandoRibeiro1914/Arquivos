@@ -190,3 +190,99 @@ h2 {
 
     /* padding: 10px 20px 10px 20px; */
 }
+
+/* Padding com width */
+.without-border-box {
+    background-color: #444;
+    color: #fff;
+    width: 400px;
+    padding: 50px; /* Adiciona um espaço interno de 50px ao redor do conteúdo */
+    /* O padding é adicionado à largura, resultando em uma largura total de 500px */
+}
+
+
+
+.border-box {
+    background-color: #666;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+    /* Inclui o padding e a borda na largura total do elemento */
+    /* A largura total permanece 400px, pois o padding está incluso na largura especificada */
+}
+
+
+/* Border */
+.border {
+    border: 5px solid #ff0000;
+    padding: 10px;
+}
+
+.border-2 {
+    border: 2px dotted #905900d4;
+    padding: 25px;
+}
+
+/* Borda individual */
+.border-left {
+    border-left: 3px solid #ff0000;
+    background-color: #222;
+    padding: 25px;
+}
+
+.border-bottom {
+    border-bottom: 5px double #399;
+    background-color: #222;
+    padding: 20px;
+}
+
+/* Borda arredondada */
+.rounded-p {
+    border: 4px solid #0e11cf;
+    background-color: #009dff33;
+    padding: 15px;
+    border-radius: 15px;
+    border-color: #1500ff;
+    color: #d500ff;
+    margin-bottom: 10px; /* Adiciona um espaço abaixo do elemento */
+
+}
+
+.rounded-p-2 {
+    /* Para utilizar a regra de radius,
+       não é preciso declarar border
+       aqui está arredondando o elemento*/
+    background-color: #009dff33;
+    padding: 15px;
+    border-radius: 25px;
+    color: #d500ff;
+    margin-top: 10px; /* Adiciona um espaço acima do elemento */
+}
+
+/* margem */
+.margin {
+    margin: 10px;
+    background-color: #0e11cf;
+}
+
+.margin-top {
+    margin-top: 50px;
+    background-color: #55a398;
+    padding: 10px;
+}
+
+.margin-shorthand {
+    background-color: #543;
+    margin: 5px 10px 15px 20px;
+}
+
+/* Box model */
+.box-model {
+    margin: 20px;
+    padding: 15px 25px;
+    border: 3px solid #845;
+    border-radius: 7px;
+    width: 200px;
+    height: 400px;
+}

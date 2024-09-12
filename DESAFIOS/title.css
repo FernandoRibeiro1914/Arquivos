@@ -7,3 +7,27 @@ h4{
     border-bottom: solid greenyellow;
     color: navy;
 }
+
+#desafio-tres{
+    width: 50%;
+    height: 50%;
+    border: 3px solid #31ff03;
+    /* Outline deve ficar na id */
+    outline: 3px solid #4a4;
+    border-radius: 50px;
+    background-color:#3700ff ;
+    margin:auto;
+    margin-top: 20%;
+    padding: 5px 15px;  
+}
+
+.titulo-desafio {
+    width: auto;
+    background-color: rgb(255, 2, 213);
+    padding: 15px;
+    text-align: center;
+    color: #3fda03;
+    /* O outline seria na id, não na classe */
+    /* outline: 3px solid #00a5b7; */
+    border-radius: 50px;
+}
