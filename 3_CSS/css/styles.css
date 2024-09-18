@@ -297,3 +297,27 @@ h2 {
     width: 300px;
     border: 1px solid #fd0505;
 }
+
+/* Text decoration */
+.underline {
+    text-decoration: underline;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.remove-underline {
+    text-decoration: none;
+}
+
+/* Text transform */
+.upper {
+    text-transform: uppercase;
+    color: #ff009d;
+}
+
+.lower {
+    text-transform: lowercase;
+    color: #009dff33;
+}
