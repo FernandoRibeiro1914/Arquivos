@@ -286,3 +286,64 @@ h2 {
     width: 200px;
     height: 400px;
 }
+
+.remove-underline {
+    text-decoration: none;
+    color: #ff0000;
+}
+
+/* text transform */
+.upper {
+    text-transform: uppercase;
+}
+
+.lower {
+    text-transform: lowercase;
+}
+
+/* letter spacing
+Define o espaçamento entre as letras. */
+.spacing {
+letter-spacing: 5px;
+}
+
+/* Fontes */
+.serif {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sans-serif {
+    font-family: Helvetica;
+}
+.monospace {
+    font-family: 'Courier New';
+}
+
+.cursive {
+    font-family: cursive;
+}
+
+.fantasy {
+    font-family: fantasy;
+}
+
+/* Text style */
+.italic {
+    font-style: italic;
+}
+
+.oblique {
+    font-style: oblique;
+}
+
+/* Font weight */
+.thin {
+    font-weight: 200;
+}
+
+.bold {
+    font-weight: 450;
+}
+.bolder {
+    font-weight: 900;
+}
