@@ -350,6 +350,7 @@ h2 {
     font-weight: 900;
 }
 
+<<<<<<< HEAD
 /* font-size */
 .small {
     background-color: #298;
@@ -380,12 +381,28 @@ na mesma linha e passa a ficar em bloco*/
     background-color: #4F8;
     margin: 10px;
     display: block;
+=======
+/* Display */
+.inline-box {
+    width: 50px;
+    height: 50px;
+    background-color: #358;
+    margin: 10px;
+    display: inline-block;
+}
+
+.block {
+    background-color: #673;
+    display: block;
+    margin: 10px;
+>>>>>>> b9001744e97b439c0aca390f602dc891d3a45788
 }
 
 .invisible {
     display: none;
 }
 
+<<<<<<< HEAD
 /* static
 Por ser o valor padrão, não haverá diferença*/
 .static {
@@ -465,3 +482,16 @@ Para o elemento aparecer, é necessário declarar suas posições.
 
     top: 10px;
 }
+=======
+/* Relative */
+.relative {
+    position: relative;
+    background-color: #387;
+    color: #789;
+    width: 100px;
+    height: 100px;
+
+ }
+
+
+>>>>>>> b9001744e97b439c0aca390f602dc891d3a45788
