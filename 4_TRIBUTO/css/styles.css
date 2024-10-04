@@ -1,7 +1,25 @@
+*{
+    background-color: #040128;
+    color: #8cff00;
+}
+
 h1 {
-    color: #714;
+    color: #8c00ff;
+    text-align: center;
+}
+
+.main-paragraph {
+    text-align: center;
+    font-size: larger;
+}
+
+
+.featured-image img {
+width: 100%;
+max-width: 100%;
+border-radius: 10%;
 }
 
 .featured-image {
-    border-radius: 100%;
+    text-align: center;
 }
